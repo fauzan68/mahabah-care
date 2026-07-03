@@ -5,6 +5,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+#body{
+    scroll-behavior: smooth;
+}
+
 #header{
   background-color: #081A35;
   display: flex;
