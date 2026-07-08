@@ -107,6 +107,33 @@
     color:#fff
 }
 
+    .text{
+        width: auto;
+        height: auto;
+        border: 1px solid black;
+    }
+
+    .text h6{
+        color:white;
+        margin-left: 13px;
+        margin-top: 15;
+    }
+
+    .text h1{
+        color:rgb(255, 0, 0);
+        margin-left: 12px;
+        font-size: 25px ;
+        margin-top: 6;
+
+    }
+
+    .text p{
+        color:white;
+        margin-left: 13px;
+        margin-top:8px;
+        font-size: 18px;
+    }
+
 
 
 
