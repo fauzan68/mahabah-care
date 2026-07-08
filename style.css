@@ -6,10 +6,6 @@
     scroll-behavior: smooth;
 }
 
-body{
-    scroll-behavior: smooth;
-}
-
 #header{
   background-color: #081A35;
   display: flex;
@@ -217,28 +213,124 @@ body{
     color:#888;
 }
 
+@media screen and (max-width: 768px) {
+    *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+        font-family: 'Poppins', sans-serif;
+        scroll-behavior: smooth;
+    }
 
-@media(max-width:768px){
     #header{
-        flex-wrap:wrap
+    background-color: #081A35;
+    display: flex;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border-bottom: 1px solid rgb(97, 97, 97);
+    height: auto;
     }
+
+    #logo{
+        border: 0px solid rgb(0, 0, 0);
+    }
+
+    #nama{
+        width: auto;
+        height: 100px;
+        border: 0px solid rgb(0, 0, 0);
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+
+    #nama h3{
+        margin-top: 10px;
+        color:red;
+        font-size: 27px;
+    }
+
+    #nama h4{
+        margin-top: 5px;
+        color:rgb(255, 255, 255);   
+    }
+
     #menu{
-        margin:20px 0 0 0;
-        width:100%
+        width: auto;
+        border: 0px solid rgb(0, 0, 0);
+        background-color: #081A35;
+
     }
+
     #menu ul{
-        flex-direction:column;
-        align-items:center
+        margin: 0;
+        padding: 0;
+        display: flex;
     }
+
+    #menu ul li{
+        list-style: none;
+        float: left;
+        padding:7px 0px 8px;
+    }
+
+    #menu ul li a{
+        text-decoration: none;
+        color: #ffffff;
+        font-family: arial; 
+        font-weight: bold;
+        margin-left: 5px;
+    }
+
+    #menu ul li a span{
+        padding:5px 8px 5px;
+        border-radius:5px ;
+    }
+
+    #menu ul li a:hover span{
+        background-color: rgb(255, 255, 255);
+        color: blue;
+    }
+
+    #home{ 
+    width: 100%;
+    height:500px;
+    background-color:#071326;
+    border-bottom: 1px solid rgb(97, 97, 97);
+    background-color: #081A35;
+    }
+
     #content{
-        flex-direction:column;
-        padding:30px;
-        gap:30px
+        width: 100%;
+        height: 300px;
+        border: 1px solid black;
     }
-    .hero-text h1{
-        font-size:38px
+
+    .text{
+        width: auto;
+        height: auto;
+        border: 1px solid black;
     }
-    .hero-card{
-        width:100%
+
+    .text h6{
+        color:white;
+        margin-left: 13px;
+        margin-top: 15;
+    }
+
+    .text h1{
+        color:rgb(255, 0, 0);
+        margin-left: 12px;
+        font-size: 25px ;
+        margin-top: 6;
+
+    }
+
+    .text p{
+        color:white;
+        margin-left: 13px;
+        margin-top:8px;
+        font-size: 18px;
     }
 }
+
